@@ -1,0 +1,41 @@
+/* Semi-transparent warm parchment background */
+.home-background-overlay {
+    background-color: rgba(245, 236, 220, 0.65); /* warm parchment, 65% opacity */
+    padding: 2rem;
+    min-height: 100vh; /* ensures it fills at least viewport height */
+    width: 100%;
+    box-sizing: border-box; /* include padding in width calculations */
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(189, 151, 81, 0.15); /* subtle gold glow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  /* Artwork styling */
+  .home-artwork {
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #b58a4a; /* subtle warm gold border */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .home-artwork:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 10px rgba(181, 138, 74, 0.6); /* soft gold glow on hover */
+  }
+  
+  /* Optional: responsive tweak for smaller screens */
+  @media (max-width: 768px) {
+    .home-artwork {
+      width: 80%;
+      height: auto;
+    }
+    .home-background-overlay {
+      padding: 1.5rem;
+    }
+  }
+  

@@ -1,0 +1,75 @@
+#plusminus sub {
+    vertical-align: middle;
+}
+
+.cal-container {
+    margin: 1rem auto;
+    width: fit-content;
+    border: 3px solid black;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: #e3eaee;
+    box-shadow: 0 5px #9999997c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cal-container * {
+    font-size: 1rem;
+}
+
+.cal-screen {
+    background-color: azure;
+    text-align: right;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 2px solid #5a5a5a;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.cal-btn {
+    width: 2.5rem;     /* slightly wider */
+    height: 2.5rem;    /* slightly taller */
+    margin: 0.2rem 0.1rem;
+    border-radius: 5px;
+    border: 2px solid #949494;
+    font-size: 1rem;
+}
+
+.cal-btn:disabled {opacity: 75%;}
+
+.cal-btn-green {
+    background-color: #95ffa6;
+    border-color:#4cae4c
+}
+
+.cal-btn-green:hover {background-color: #60d674; transition: ease-in-out 0.2s}
+
+.cal-btn-green:active {background-color: #c0ffcb; transition: ease-in-out 0.2s}
+
+.cal-btn-blue {
+    background-color: #90b1ee;
+    border-color:#2e6da4
+}
+
+.cal-btn-blue:hover {background-color: #6392eb; transition: ease-in-out 0.2s}
+
+.cal-btn-blue:active {background-color: #90b1ee; transition: ease-in-out 0.2s}
+
+.cal-btn-red {
+    background-color: #ff7979;
+    border-color:#d43f3a;
+}
+
+.cal-btn-red:hover {background-color: #fd5e6b; transition: ease-in-out 0.2s}
+
+.cal-btn-red:active {background-color: #ff7979; transition: ease-in-out 0.2s}
+
+.cal-btn-orange {
+    background-color: #ffd151;
+    border-color:#c77913
+}
+
+.student {
+    text-align: center;
+}
